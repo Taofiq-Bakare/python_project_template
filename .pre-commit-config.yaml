@@ -1,5 +1,5 @@
 fail_fast: True
-files: 'tests\\cli_functions_test.py'
+
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
@@ -10,6 +10,7 @@ repos:
     -   id: name-tests-test
     -   id: check-added-large-files
     -   id: check-merge-conflict
+    -   id: no-commit-to-branch
 -   repo: https://github.com/psf/black
     rev: 21.12b0
     hooks:
