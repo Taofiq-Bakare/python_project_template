@@ -11,6 +11,7 @@ repos:
     -   id: check-added-large-files
     -   id: check-merge-conflict
     -   id: no-commit-to-branch
+    -   id: requirements-txt-fixer
 -   repo: https://github.com/psf/black
     rev: 21.12b0
     hooks:
