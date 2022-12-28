@@ -23,4 +23,7 @@ install-all: get-requirements install-dev install-prod
 test:
 	python -m unittest -v tests/test_cli_functions.py
 
+run-app:
+	python -m main
+
 
