@@ -1,5 +1,9 @@
 import unittest
-from hypothesis import given, strategies as st
+
+import numpy as np
+from hypothesis import given
+from hypothesis import strategies as st
+
 import utils.helper_functions as helper_functions
 
 
