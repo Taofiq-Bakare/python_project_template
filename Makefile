@@ -20,8 +20,11 @@ install-dev: get-requirements
 
 install-all: get-requirements install-dev install-prod
 
+# use the coverage module to run the test
+# and display the report of the coverage
 test:
-	python -m unittest -v tests/test_cli_functions.py
+	coverage run -m unittest -v tests/test_cli_functions.py &&\
+	coverage report -m
 
 run-app:
 	python -m main

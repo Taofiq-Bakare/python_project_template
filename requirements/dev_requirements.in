@@ -1,5 +1,9 @@
 
 # constraint the production environment to the dev
 -c prod_requirements.txt
+# formatting
 black==22.12.0
+# testing
 ipython==8.7.0
+coverage==7.0.1
+hypothesis==6.61.0
