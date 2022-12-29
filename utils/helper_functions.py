@@ -1,4 +1,6 @@
-# This file contains the helper functions used for the cli tool
+"""
+This file contains the helper functions used for the cli tool
+"""
 import numpy as np
 
 
@@ -21,7 +23,3 @@ def add_x(x: float, y: float) -> float:
     except ValueError:
         raise ValueError("Please provide float/int")
     return res
-
-
-def what(name):
-    return name
