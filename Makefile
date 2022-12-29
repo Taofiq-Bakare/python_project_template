@@ -29,3 +29,6 @@ test:
 
 run-app:
 	python -m main
+
+lint:
+	- python -m flake8 .
