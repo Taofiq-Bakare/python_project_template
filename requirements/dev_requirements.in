@@ -4,6 +4,7 @@
 
 # formatting
 black==22.12.0
+interrogate==1.5.0
 
 # testing
 ipython==8.7.0
