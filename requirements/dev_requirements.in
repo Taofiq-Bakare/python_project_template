@@ -28,3 +28,6 @@ flake8-bugbear==22.12.6
 
 # security
 bandit==1.7.4
+
+# debug
+debugpy==1.6.4
