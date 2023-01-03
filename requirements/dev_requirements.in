@@ -1,12 +1,33 @@
 
 # constraint the production environment to the dev
 -c prod_requirements.txt
+
 # formatting
-black==22.12.0
+black
+## check for docstrings
+interrogate
+
+# documentation
+## help with auto-documentation
+sphinx
+
 # testing
-ipython==8.7.0
-coverage==7.0.1
-hypothesis==6.61.0
+ipython
+## checks for test coverage
+coverage
+## tests for multiple cases
+hypothesis
 
 # git pre-commit
-pre-commit==2.21.0
+## pre-commit hooks
+pre-commit
+
+# linting
+flake8
+flake8-bugbear
+
+# security
+bandit
+
+# debug
+debugpy
