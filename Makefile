@@ -11,6 +11,7 @@ get-requirements:
 install:
 	python -m pip install --upgrade pip &&\
 	python -m pip install --upgrade pip-tools &&\
+	python -m pip install --upgrade pre-commit &&\
 	pre-commit install
 
 install-prod: get-requirements install
