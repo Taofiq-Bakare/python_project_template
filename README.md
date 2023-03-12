@@ -20,6 +20,17 @@ tackling even the most complex programming challenges with confidence and ease.
 3. Alter the dev and prod requirements.in file with the packages as needed
 4. Run $MAKE$ to install for the appriopriate environment
 
+Running 
+
+```bash
+$ make install
+```
+Will install the basic packages like pip-tools and pre-commit.
+
+While running
+
 ```bash
 $ make install-dev
 ```
+
+Will install the packaged needed for the development environment.
