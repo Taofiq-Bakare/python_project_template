@@ -13,5 +13,13 @@ By applying the principles of Boring Python and other best practices,
 I aim to become a more skilled and efficient Python developer, 
 tackling even the most complex programming challenges with confidence and ease.
 
+## How to use this template
 
+1. Fork the repository
+2. Use as template for Python projects
+3. Alter the dev and prod requirements.in file with the packages as needed
+4. Run $MAKE$ to install for the appriopriate environment
 
+```bash
+$ make install-dev
+```
