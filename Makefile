@@ -17,7 +17,7 @@ install:
 install-prod: get-requirements install
 	python -m pip install -r requirements/prod_requirements.txt
 
-install-dev: get-requirements
+install-dev: get-requirements install
 	python -m pip install -r requirements/dev_requirements.txt
 
 install-all: get-requirements install-dev install-prod
